@@ -1,7 +1,4 @@
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## [react-portfolio-dmitry-smolin](https://react-portfolio-dmitry-smolin.netlify.app/) 
 
 ## Available Scripts
 
