@@ -1,0 +1,41 @@
+.RemoteWorkBlock {
+    background-color: #fffeec;
+    height: 25vh;
+}
+
+.RemoteWorkBlock>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapInformation {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.wrapText {
+    background-color: #d7d7d7;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.RemoteWorkBlock button {
+    padding: 10px 40px 10px 40px;
+}
+
+
+@media (min-width: 280px) and (max-width: 766px) {
+    .wrapInformation {
+        border: none;
+    }
+
+    .wrapText {
+        margin-bottom: 12px;
+    }
+}

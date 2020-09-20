@@ -1,0 +1,17 @@
+.navBlock {
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBlock a {
+    text-decoration: none;
+}
+
+@media (max-width:766px) {
+    .navBlock {
+        margin: 0 auto;
+    }
+
+}
